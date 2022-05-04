@@ -1,0 +1,312 @@
+@media (max-width: 401px) {
+    .img-princ img{
+        width: 320px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .view-product {
+        padding: 1.2rem;
+    }
+
+.imgs-view-product div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 480px;
+}
+
+.imgs-view-product .img-princ {
+    max-width: 450px;
+    min-width: 400px;
+    margin: auto;
+
+}
+
+.imgs-view-product .img-seconds-view img {
+    opacity: 0.6;
+}
+
+.imgs-view-product .img-seconds-view img:hover {
+    opacity: 1;
+    border: 1px solid rgba(128, 128, 128, 0.541);
+}
+
+.imgs-view-product .img-seconds-view img {
+    min-width: 80px;
+    width: 90px;
+    height: 90px;
+}
+
+.navegation {
+    padding-top: 10px;
+}
+
+.title-product-view {
+    padding: 1rem 0 1rem 0;
+}
+
+.payment p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #008000;
+}
+
+.payment p:last-child {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: black;
+}
+
+.zise-shirt div {
+    display: flex;
+}
+
+.zise-shirt #p-size {
+    font-weight: 700;
+    color: black;
+    padding-top: 1rem;
+}
+
+.zise-shirt div p {
+    color: black;
+    width: 2.6rem;
+    height: 2.6rem;
+    border: 1px solid gray;
+    margin-left: 0.2rem;
+    justify-content: center;
+    text-align: center;
+    padding-top:0.5rem;
+    border-radius: 3px;
+    margin-bottom: 0.4rem;
+}
+
+.zise-shirt div p:hover {
+    background-color: rgba(128, 128, 128, 0.384);
+    border: 2px solid black;
+}
+
+
+.btn-buy{
+    background-color: black;
+    color: white;
+    width: 250px;
+    padding: 1rem;   
+    border-radius: 0.4rem;
+    margin-top: 0.4rem;
+}
+
+.btn-buy:hover {
+    background-color: rgb(23, 66, 23);
+}
+
+.frete p {
+    color: black;
+    font-weight: 600;
+    padding-top: .8rem;
+}
+
+.frete input {
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    padding: .5rem;
+    font-size: .9rem;
+    border-radius: .3rem;
+    margin-bottom: 1rem;
+    width: 7rem;
+}
+
+.frete button {
+    background-color: black;
+    color: white;
+    padding: .6rem;
+    border-radius: .3rem;
+    margin-left: .5rem;
+}
+
+.table-installment {
+    border: 1px solid rgba(128, 128, 128, 0.404);
+    width: 100%;
+
+}
+
+.table-installment thead{
+    text-align: left;
+}
+
+td{
+    border-top: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.table-installment .parcell{
+    color: #008000;
+}
+
+.table-description {
+    width: 100%;
+    margin-top: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    text-align: left;
+}
+
+}
+
+
+
+@media (min-width: 769px) {
+
+.container-view-product {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+
+.imgs-view-product div {
+        position: relative;
+        transform: translate3d(0px, 0px, 0px);
+        display: flex;
+        margin-right: 5rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+.div-princ-view .img-princ {
+    width: 420px;
+    height: 450px;
+    margin: auto;
+    filter: drop-shadow(5px 10px 15px rgb(8,9,13,.4));
+}
+
+
+.imgs-view-product .img-seconds-view img {
+    opacity: 0.6;
+}
+
+.imgs-view-product .img-seconds-view img:hover {
+    opacity: 1;
+    border: 1px solid rgba(128, 128, 128, 0.541);
+}
+
+.imgs-view-product .img-seconds-view img {
+    width: 100px;
+    height: 100px;
+}
+
+.navegation {
+    padding-top: 10px;
+}
+
+.title-product-view {
+    padding: 1rem 0 1rem 0;
+    font-size: 2rem;
+}
+
+.payment p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: black;
+}
+
+.zise-shirt div {
+    display: flex;
+}
+
+.zise-shirt #p-size {
+    font-weight: 700;
+    color: black;
+    padding-top: 1rem;
+}
+
+.zise-shirt div p {
+    color: black;
+    width: 2.6rem;
+    height: 2.6rem;
+    border: 1px solid gray;
+    margin-left: 0.2rem;
+    justify-content: center;
+    text-align: center;
+    padding-top:0.5rem;
+    border-radius: 3px;
+}
+
+.zise-shirt div p:hover {
+    background-color: rgba(128, 128, 128, 0.384);
+    border: 2px solid black;
+}
+
+
+.btn-buy{
+    background-color: black;
+    color: white;
+    width: 80%;
+    padding: 1rem;   
+    border-radius: 0.4rem;
+    margin-top:.8rem;
+}
+
+.btn-buy:hover {
+    background-color: rgb(23, 66, 23);
+}
+
+.frete p {
+    color: black;
+    font-weight: 600;
+    padding-top: .8rem;
+}
+
+.frete input {
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    padding: .5rem;
+    font-size: .9rem;
+    border-radius: .3rem;
+    margin-bottom: 1rem;
+    width: 7rem
+}
+
+.frete button {
+    background-color: black;
+    color: white;
+    padding: .6rem;
+    border-radius: .3rem;
+    margin-left: .5rem;
+}
+
+.table-installment {
+    border: 1px solid rgba(128, 128, 128, 0.404);
+    width: 100%;
+}
+
+.table-installment thead{
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.table-installment td{
+    border-top: 1px solid rgba(0, 0, 0, 0.274);
+    font-size: 1.1rem;
+}
+
+.product-info {
+    margin-left: 3rem;
+}
+
+.div-table-description {
+    padding: 1rem;
+}
+
+.table-description {
+    margin-top: 2rem;
+    border: 1px solid rgba(0, 0, 0);
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+}
+
+
+
+
